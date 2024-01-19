@@ -21,6 +21,11 @@ git clone https://github.com/happyharrycn/video_analysis.git
 If you are using Anaconda, try
 
 ```shell
+conda create --name FHOI python=3.6
+```
+specifically, `python 3.6.13` will not conflict with the dependencies below.
+
+```shell
 conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
 conda install -c conda-forge ffmpeg opencv lintel tensorboardx
 ```
